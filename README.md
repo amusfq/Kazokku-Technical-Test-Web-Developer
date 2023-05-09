@@ -1,7 +1,7 @@
 # Instalasi
 
-1. Import file 'db.sql'.
-2. Sesuaikan koneksi database pada file 'config/db.php'.
+1. Import file `db.sql`.
+2. Sesuaikan koneksi database pada file `config/db.php`.
 ```php
     $DB_HOST = "localhost";
     $DB_NAME = "php";
