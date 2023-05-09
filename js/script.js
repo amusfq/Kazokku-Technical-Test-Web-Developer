@@ -74,9 +74,8 @@ $(document).ready(() => {
         $('#file').val('');
         $("#preview").attr("src", '');
 
-        return alert.append(
-          `<div class='bg-green-300 text-green-500 px-4 py-2 rounded-md border-green-500' >Berhasil menyimpan data</div>`
-        );
+        confirm("Berhasil menyimpan data");
+        return window.location.reload();
       },
     });
   });
